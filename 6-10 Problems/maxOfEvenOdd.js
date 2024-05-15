@@ -1,5 +1,5 @@
 /**
- * Writing a program which takes 8 numbers and add all even numbers 
+ * Writing a program which takes 8 positive numbers and add all even numbers 
  * also add all odd numbers and return which one is greater.
  */
 
