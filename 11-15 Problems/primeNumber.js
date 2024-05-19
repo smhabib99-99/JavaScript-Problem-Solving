@@ -2,7 +2,7 @@
  * program for checking if a number is prime or not?
  */
 
-const x = 11;
+const x = 293;
 let checker = 2;
 
 function prime(x){
