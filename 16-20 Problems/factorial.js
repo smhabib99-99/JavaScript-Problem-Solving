@@ -4,7 +4,9 @@
 
 function getFactorial(num){
     let x = 1;
-    if(num === 0){
+    if(num<0){
+        return`Enter positive number to get Factorial Value!`
+    }else if(num === 0){
         return 1;
     }else{
         x = num * getFactorial(num-1);
