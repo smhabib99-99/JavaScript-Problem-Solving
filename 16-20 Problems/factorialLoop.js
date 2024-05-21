@@ -4,10 +4,17 @@
 
 function findFactorial(num){
     let x = 1;
-    for(let i = 1; i <= num; i++){
-        x *= i;
+    if(num<0){
+        return `Enter positive number to get factorial!`
+    }else if(num === 0){
+        return 1;
+    }else{
+        for(let i = 1; i <= num; i++){
+            x *= i;
+        }
+        return x;
     }
-    return x;
+  
 }
 
 const x = 5;
